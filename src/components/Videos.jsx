@@ -1,6 +1,58 @@
 export default function Videos() {
+  const videos = [
+    {
+      id: 1,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/yYL0TqP65HU?si=un0TTIpY45xEwQo5"
+    },
+    {
+      id: 2,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/gUiIdM7rrY4?si=mpDlM-4kb9YXqXvY"
+    },
+    {
+      id: 3,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/7BUKkUk-Tdg?si=OYwn60x_GxbHJPNc"
+    },
+    {
+      id: 4,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/-WHUPDGxw_I?si=v4qAd2eVguigtdri"
+    },
+    {
+      id: 5,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/RKFgn116iDs?si=ZQH7pGpgI1cqECsg"
+    },
+    {
+      id: 6,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/9r1u5eH31n0?si=6ewbh-qmYsFP-mV4"
+    },
+    {
+      id: 7,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/AsYJ3y0DT5I?si=82mQins_x1I3SNus"
+    },
+    {
+      id: 8,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/vSF_B0S2iss?si=Y3XF09GrlffLuc7a"
+    },
+    {
+      id: 9,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/YdARqW-HHLE?si=ai6INzaXm-4B0Iwl"
+    },
+    {
+      id: 10,
+      title: "YouTube video player",
+      src: "https://www.youtube-nocookie.com/embed/GyndgOsaKtk?si=cEcofGRetsfVznKB"
+    }
+  ];
 
-return(
+  return(
     <div className="videos" id="videos">
     <div className="video_slider">
       <svg
@@ -58,86 +110,18 @@ return(
         </g>
       </svg>
       <div className="videos_inner">
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/7BUKkUk-Tdg?si=OYwn60x_GxbHJPNc"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/-WHUPDGxw_I?si=v4qAd2eVguigtdri"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/RKFgn116iDs?si=ZQH7pGpgI1cqECsg"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/9r1u5eH31n0?si=6ewbh-qmYsFP-mV4"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/AsYJ3y0DT5I?si=82mQins_x1I3SNus"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/vSF_B0S2iss?si=Y3XF09GrlffLuc7a"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/YdARqW-HHLE?si=ai6INzaXm-4B0Iwl"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="youtube_video_container">
-          <iframe
-            className="youtube_video"
-            src="https://www.youtube-nocookie.com/embed/GyndgOsaKtk?si=cEcofGRetsfVznKB"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen
-          ></iframe>
-        </div>
+        {videos.map((video) => (
+          <div key={video.id} className="youtube_video_container">
+            <iframe
+              className="youtube_video"
+              src={video.src}
+              title={video.title}
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+        ))}
       </div>
       <svg
         fill="#ffffff"

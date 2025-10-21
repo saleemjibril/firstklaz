@@ -13,7 +13,7 @@ import { Html } from '@react-three/drei'
 
 
 const Model = ({ rotationY, scale }) => {
-  const { scene } = useGLTF('/y - Copy - Copy.glb');
+  const { scene } = useGLTF('/sdsd.glb');
   
   useEffect(() => {
     // Enhance the material properties
@@ -100,7 +100,7 @@ const ModelViewer = () => {
       onTouchMove={handleTouchMove}
       onTouchEnd={handleMouseUp}
     >
-      <Canvas shadows camera={{ position: [0, 0, 2], fov: 50 }}>
+      <Canvas shadows camera={{ position: [0, 0, 2], fov: 57 }}>
         <color attach="background" args={['#000000']} />
         <Suspense fallback={
          <Html center>

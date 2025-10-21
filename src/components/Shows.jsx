@@ -9,6 +9,85 @@ import FandFLagos from "../img/firstklaz-and-friends-lagos.jpg";
 import FandFIbadan from "../img/firstklaz-and-friends-ibadan.jpg";
 
 export default function Shows() {
+  const shows = [
+    {
+      id: 1,
+      name: "Firstklaz & Friends: Dejavu Experience Abuja",
+      image: "https://res.cloudinary.com/thewebplug/image/upload/v1761082915/SaveClip.App_567401549_18531389671040629_8142344560729940894_n_wwbka0.jpg",
+      link: "/",
+      buttonText: "Sold out"
+    },
+    {
+      id: 1,
+      name: "Dejavu Listening Party - Romies Block",
+      image: "https://res.cloudinary.com/thewebplug/image/upload/v1761082919/SaveClip.App_565352714_17927529033132752_2591396414180765074_n_jjwspy.jpg",
+      link: "/",
+      buttonText: "Sold out"
+    },
+    {
+      id: 1,
+      name: "Firstklaz & Friends: Dejavu Experience Lagos",
+      image: "https://res.cloudinary.com/thewebplug/image/upload/v1761082917/SaveClip.App_563560142_18413947876114413_3655619628076750973_n_kel8wz.jpg",
+      link: "/",
+      buttonText: "Sold out"
+    },
+    {
+      id: 1,
+      name: "Firstklaz & Friends Jos",
+      image: FandFJos,
+      link: "https://tix.africa/discover/fnftour",
+      buttonText: "Sold out"
+    },
+    {
+      id: 2,
+      name: "Firstklaz & Friends Lagos",
+      image: FandFLagos,
+      link: "https://tix.africa/discover/fnftour",
+      buttonText: "Sold out"
+    },
+    {
+      id: 3,
+      name: "Firstklaz & Friends Ibadan",
+      image: FandFIbadan,
+      link: "https://tix.africa/discover/fnftour",
+      buttonText: "Sold out"
+    },
+    {
+      id: 4,
+      name: "Firstklaz & Friends Kaduna",
+      image: FandFKd,
+      link: "https://tix.africa/discover/fnftour",
+      buttonText: "Sold out"
+    },
+    {
+      id: 5,
+      name: "Firstklaz & Friends PortHarcourt",
+      image: FAndFPh,
+      link: "https://tix.africa/discover/fnftour",
+      buttonText: "Sold out"
+    },
+    {
+      id: 6,
+      name: "Firstklaz & Friends Abuja",
+      image: FAndFAbj,
+      link: "https://open.spotify.com/track/6ML4o3KWB24d8R7RU6fVkl?si=cfd04121cc7148da",
+      buttonText: "Sold out"
+    },
+    {
+      id: 7,
+      name: "Firstklaz Club Tour Lagos",
+      image: LagosStreetShow,
+      link: "https://waverlymusik.lnk.to/GenZFujiII",
+      buttonText: "Sold out"
+    },
+    {
+      id: 8,
+      name: "Firstklaz Street Show Abuja",
+      image: AbujaStreetShow,
+      link: "https://onerpm.link/gen-zfuji",
+      buttonText: "Sold out"
+    }
+  ];
 
     return(
         <div className="music" id="music">
@@ -38,126 +117,27 @@ export default function Shows() {
             </g>
           </svg>
           <div className="music_inner">
-            <a
-              href="https://tix.africa/discover/fnftour"
-              target="_blank"
-              className="slider_item"
-            >
-              <img className="music_artwork shows_image" src={FandFJos} alt="" />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz & Friends Jos
-              </div>
-              <button className="music_button">Get tickets</button>
-            </a>
-            <a
-              href="https://tix.africa/discover/fnftour"
-              target="_blank"
-              className="slider_item"
-            >
-              <img className="music_artwork shows_image" src={FandFLagos} alt="" />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz & Friends Lagos
-              </div>
-              <button className="music_button">Get tickets</button>
-            </a>
-            <a
-              href="https://tix.africa/discover/fnftour"
-              target="_blank"
-              className="slider_item"
-            >
-              <img className="music_artwork shows_image" src={FandFIbadan} alt="" />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz & Friends Ibadan
-              </div>
-              <button className="music_button">Get tickets</button>
-            </a>
-            <a
-              href="https://tix.africa/discover/fnftour"
-              target="_blank"
-              className="slider_item"
-            >
-              <img className="music_artwork shows_image" src={FandFKd} alt="" />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz & Friends Kaduna
-              </div>
-              <button className="music_button">Sold out</button>
-            </a>
-            <a
-              href="https://tix.africa/discover/fnftour"
-              target="_blank"
-              className="slider_item"
-            >
-              <img className="music_artwork shows_image" src={FAndFPh} alt="" />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz & Friends PortHarcourt
-              </div>
-              <button className="music_button">Sold out</button>
-            </a>
-            <a
-              href="https://open.spotify.com/track/6ML4o3KWB24d8R7RU6fVkl?si=cfd04121cc7148da"
-              target="_blank"
-              className="slider_item"
-            >
-              <img className="music_artwork shows_image" src={FAndFAbj} alt="" />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz & Friends Abuja
-              </div>
-              <button className="music_button">Sold out</button>
-            </a>
-            <a
-              href="https://waverlymusik.lnk.to/GenZFujiII"
-              target="_blank"
-              className="slider_item"
-            >
-              <img
-                className="music_artwork shows_image"
-                src={LagosStreetShow}
-                alt=""
-              />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz Club Tour Lagos
-              </div>
-              <button className="music_button">Sold out</button>
-            </a>
-            <a
-              href="https://onerpm.link/gen-zfuji"
-              target="_blank"
-              className="slider_item shows_image"
-            >
-              <img
-                className="music_artwork shows_image"
-                src={AbujaStreetShow}
-                alt=""
-              />
-              {/* <div className="music_gif">
-          <img src={Genzfuji} alt="" />
-        </div> */}
-              <div className="music_name">
-                Firstklaz Street Show Abuja
-              </div>
-              <button className="music_button">Sold out</button>
-            </a>
+            {shows.map((show) => (
+              <a
+                key={show.id}
+                href={show.link}
+                target="_blank"
+                className="slider_item"
+              >
+                <img 
+                  className="music_artwork shows_image" 
+                  src={show.image} 
+                  alt={show.name} 
+                />
+                <div className="music_gif">
+                  {/* <img src={Genzfuji} alt="" /> */}
+                </div>
+                <div className="music_name">
+                  {show.name}
+                </div>
+                <button className="music_button">{show.buttonText}</button>
+              </a>
+            ))}
           </div>
 
           <svg
