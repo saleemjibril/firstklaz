@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "firstklaz-and-friends-abuja-2026",
+    "name": "Firstklaz & Friends Abuja",
+    "image": "/shows/firstklaz-and-friends-abuja-2026.jpg",
+    "date": "2026-12-12",
+    "venue": "Bali City Park",
+    "city": "Abuja",
+    "startTime": "7PM",
+    "endTime": "12AM",
+    "ticketUrl": "https://gruve.events",
+    "gruveEventAddress": "0bfc5320f82777efbd744d70eb916eb92105a1de"
+  },
+  {
+    "slug": "dejavu-experience-abuja",
+    "name": "Firstklaz & Friends: Dejavu Experience Abuja",
+    "image": "https://res.cloudinary.com/thewebplug/image/upload/v1761082915/SaveClip.App_567401549_18531389671040629_8142344560729940894_n_wwbka0.jpg",
+    "city": "Abuja",
+    "soldOut": true
+  },
+  {
+    "slug": "dejavu-listening-party-romies-block",
+    "name": "Dejavu Listening Party - Romies Block",
+    "image": "https://res.cloudinary.com/thewebplug/image/upload/v1761082919/SaveClip.App_565352714_17927529033132752_2591396414180765074_n_jjwspy.jpg",
+    "soldOut": true
+  },
+  {
+    "slug": "dejavu-experience-lagos",
+    "name": "Firstklaz & Friends: Dejavu Experience Lagos",
+    "image": "https://res.cloudinary.com/thewebplug/image/upload/v1761082917/SaveClip.App_563560142_18413947876114413_3655619628076750973_n_kel8wz.jpg",
+    "city": "Lagos",
+    "soldOut": true
+  },
+  {
+    "slug": "firstklaz-and-friends-jos",
+    "name": "Firstklaz & Friends Jos",
+    "image": "/shows/firstklaz-and-friends-jos.jpg",
+    "city": "Jos",
+    "soldOut": true
+  },
+  {
+    "slug": "firstklaz-and-friends-lagos",
+    "name": "Firstklaz & Friends Lagos",
+    "image": "/shows/firstklaz-and-friends-lagos.jpg",
+    "city": "Lagos",
+    "soldOut": true
+  },
+  {
+    "slug": "firstklaz-and-friends-ibadan",
+    "name": "Firstklaz & Friends Ibadan",
+    "image": "/shows/firstklaz-and-friends-ibadan.jpg",
+    "city": "Ibadan",
+    "soldOut": true
+  },
+  {
+    "slug": "firstklaz-and-friends-kaduna",
+    "name": "Firstklaz & Friends Kaduna",
+    "image": "/shows/firstklaz-and-friends-kaduna.jpg",
+    "city": "Kaduna",
+    "soldOut": true
+  },
+  {
+    "slug": "firstklaz-and-friends-port-harcourt",
+    "name": "Firstklaz & Friends PortHarcourt",
+    "image": "/shows/firstklaz-and-friends-port-harcourt.jpg",
+    "city": "Port Harcourt",
+    "soldOut": true
+  },
+  {
+    "slug": "firstklaz-and-friends-abuja",
+    "name": "Firstklaz & Friends Abuja",
+    "image": "/shows/firstklaz-and-friends-abuja.jpg",
+    "city": "Abuja",
+    "soldOut": true
+  },
+  {
+    "slug": "club-tour-lagos",
+    "name": "Firstklaz Club Tour Lagos",
+    "image": "/shows/club-tour-lagos.jpg",
+    "city": "Lagos",
+    "soldOut": true
+  },
+  {
+    "slug": "street-show-abuja",
+    "name": "Firstklaz Street Show Abuja",
+    "image": "/shows/street-show-abuja.jpg",
+    "city": "Abuja",
+    "soldOut": true
+  }
+]
