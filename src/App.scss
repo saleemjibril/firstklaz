@@ -5,6 +5,26 @@ html {
   background-color: #000;
 }
 
+// The Gruve ticket widget injects ":root { line-height: 1.5 }" when it loads, which
+// would change spacing across the whole site. Keep the site's spacing and give the
+// widget its line height only inside its own container.
+html:root {
+  line-height: normal;
+}
+
+.gruve-package-s {
+  line-height: 1.5;
+  color: #06060b;
+
+  // The site-wide `* { color: #ffffff }` above sets every element to white directly, so text
+  // inside Gruve's light checkout window (order summary, payment method, buttons) can't
+  // inherit Gruve's dark colours and disappears. Let it inherit again; Gruve's own colour
+  // rules still apply because its styles load later with equal or higher specificity.
+  * {
+    color: inherit;
+  }
+}
+
 * {
   box-sizing: border-box;
   color: #ffffff;
@@ -1520,8 +1540,9 @@ footer {
       flex-direction: column;
       margin-top: 40px;
 
-      & > div {
+      & > a {
         margin-bottom: 32px;
+        text-decoration: none;
       }
     }
   }
@@ -1776,21 +1797,6 @@ html.has-scroll-dragging {
   // Optional: Add loading state styles
 }
 
-.model-viewer-desktop {
-
-  // Optional: Add responsive breakpoints
-  @media (max-width: 768px) {
-    display: none;
-  }
-}
-.model-viewer-mobile {
-  display: none;
-
-  // Optional: Add responsive breakpoints
-  @media (max-width: 768px) {
-    display: initial;
-  }
-}
 
 @keyframes spin {
   to {
@@ -1821,17 +1827,28 @@ html.has-scroll-dragging {
   padding: 0 14px;
   // background: yellow;
 
-  & > svg {
+  & > a {
+    display: flex;
+    margin-right: 20px;
+  }
+
+  & > a > svg {
     width: 20px;
     height: 20px;
-    margin-right: 20px;
     cursor: pointer;
   }
 
-  & >:last-child {
+  & > a:last-child > svg {
     width: 30px;
     height: 30px;
   }
+}
+
+// Holds the gradient/filter shared by the social icons; takes up no space.
+.socials_defs {
+  position: absolute;
+  width: 0;
+  height: 0;
 }
 
 
@@ -1862,5 +1879,114 @@ html.has-scroll-dragging {
     font-size: 1.125rem;
     font-weight: 500;
     color: #2d3748;
+  }
+}
+// Individual show page (/shows/:slug)
+.show {
+  width: 1200px;
+  max-width: 100%;
+  margin: 40px auto 0;
+  padding: 0 20px 120px; // clear the fixed social bar
+
+  .show__back {
+    display: inline-block;
+    margin-bottom: 3rem;
+    font-family: RocGroteskWide;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .show__inner {
+    display: flex;
+    gap: 6rem;
+    align-items: flex-start;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 3rem;
+    }
+  }
+
+  .show__poster {
+    width: 45%;
+    max-width: 480px;
+    height: auto;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      max-width: none;
+    }
+  }
+
+  .show__details {
+    flex: 1;
+
+    // On phones the poster fills the screen, so put the details and ticket button first.
+    @media (max-width: 768px) {
+      order: -1;
+    }
+  }
+
+  .show__title {
+    font-family: RocGroteskWide;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0 0 3rem;
+
+    @media (max-width: 565px) {
+      font-size: 2.4rem;
+    }
+  }
+
+  .show__facts {
+    margin: 0 0 4rem;
+    font-family: TimesCG, serif;
+
+    & > div {
+      margin-bottom: 2rem;
+    }
+
+    dt {
+      font-family: RocGroteskWide;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      color: #c3fee0;
+      margin-bottom: 0.4rem;
+    }
+
+    dd {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+  }
+
+  // Used for both the Gruve "Buy Ticket" button and the plain ticket link.
+  .show__tickets {
+    display: inline-block;
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    padding: 10px 28px;
+    font-family: RocGroteskWide;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover,
+    &:focus-visible {
+      background: #ffffff;
+      color: #000000;
+    }
+  }
+
+  .show__status {
+    font-family: RocGroteskWide;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #ff0000;
   }
 }

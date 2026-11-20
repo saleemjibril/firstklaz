@@ -14,6 +14,7 @@ export default function Tour() {
             className="album_button"
             href="https://tix.africa/discover/fnftour"
             target="_blank"
+            rel="noreferrer"
           >
             GET YOUR TICKETS HERE
           </a>
@@ -24,9 +25,9 @@ export default function Tour() {
             baseProfile="tiny"
             fill="none"
             stroke="#FFF"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             version="1.2"
             viewBox="0 0 1000 812"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,12 +52,12 @@ export default function Tour() {
               <text
                 x="280"
                 y="340"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="20px"
-                stroke-width="0.5"
+                fontSize="20px"
+                strokeWidth="0.5"
               >
                 MINNA
               </text>
@@ -102,12 +103,12 @@ export default function Tour() {
               <text
                 x="790"
                 y="360"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="20px"
-                stroke-width="0.5"
+                fontSize="20px"
+                strokeWidth="0.5"
               >
                 YOLA
               </text>
@@ -210,13 +211,13 @@ export default function Tour() {
               <text
                 x="290"
                 y="600"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="16px"
-                font-weight="700"
-                stroke-width="0.5"
+                fontSize="16px"
+                fontWeight="700"
+                strokeWidth="0.5"
               >
                 Benin
               </text>
@@ -237,12 +238,12 @@ export default function Tour() {
               <text
                 x="570"
                 y="410"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="40px"
-                stroke-width="0.5"
+                fontSize="40px"
+                strokeWidth="0.5"
               >
                 Jos
               </text>
@@ -259,12 +260,12 @@ export default function Tour() {
               <text
                 x="460"
                 y="450"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="15px"
-                stroke-width="0.5"
+                fontSize="15px"
+                strokeWidth="0.5"
               >
                 Nassarawa
               </text>
@@ -312,12 +313,12 @@ export default function Tour() {
               <text
                 x="430"
                 y="300"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="20px"
-                stroke-width="0.5"
+                fontSize="20px"
+                strokeWidth="0.5"
               >
                 Kaduna
               </text>
@@ -334,12 +335,12 @@ export default function Tour() {
               <text
                 x="490"
                 y="200"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="20px"
-                stroke-width="0.5"
+                fontSize="20px"
+                strokeWidth="0.5"
               >
                 Kano
               </text>
@@ -357,31 +358,31 @@ export default function Tour() {
               <text
                 x="387"
                 y="425"
-                text-anchor="middle"
-                alignment-baseline="middle"
+                textAnchor="middle"
+                alignmentBaseline="middle"
                 fill="#FFF"
                 fontFamily="RocGroteskWide"
-                font-size="12px"
-                stroke-width="0.5"
+                fontSize="12px"
+                strokeWidth="0.5"
               >
                 Abuja
               </text>
             </g>
             <g id="points">
               <circle
-                class="4.752568550854937|3.271024698580586"
+                className="4.752568550854937|3.271024698580586"
                 cx="90.9"
                 cy="738.5"
                 id="0"
               ></circle>
               <circle
-                class="8.595819986532453|9.270451782319844"
+                className="8.595819986532453|9.270451782319844"
                 cx="545.5"
                 cy="445.3"
                 id="1"
               ></circle>
               <circle
-                class="13.399884281129347|14.069993449311253"
+                className="13.399884281129347|14.069993449311253"
                 cx="909.1"
                 cy="74.4"
                 id="2"
@@ -389,223 +390,223 @@ export default function Tour() {
             </g>
             <g id="label_points">
               <circle
-                class="Kebbi"
+                className="Kebbi"
                 cx="151.4"
                 cy="220.1"
                 id="NGKE"
               ></circle>
               <circle
-                class="Niger"
+                className="Niger"
                 cx="265.2"
                 cy="349.4"
                 id="NGNI"
               ></circle>
               <circle
-                class="Kwara"
+                className="Kwara"
                 cx="209.5"
                 cy="444.7"
                 id="NGKW"
               ></circle>
               <circle
-                class="Ogun"
+                className="Ogun"
                 cx="94.4"
                 cy="565.6"
                 id="NGOG"
               ></circle>
               <circle
-                class="Oyo"
+                className="Oyo"
                 cx="111"
                 cy="478.1"
                 id="NGOY"
               ></circle>
               <circle
-                class="Lagos"
+                className="Lagos"
                 cx="92.4"
                 cy="601.9"
                 id="NGLA"
               ></circle>
               <circle
-                class="Borno"
+                className="Borno"
                 cx="848.9"
                 cy="184.8"
                 id="NGBO"
               ></circle>
               <circle
-                class="Adamawa"
+                className="Adamawa"
                 cx="777.8"
                 cy="379.7"
                 id="NGAD"
               ></circle>
               <circle
-                class="Taraba"
+                className="Taraba"
                 cx="647"
                 cy="493.6"
                 id="NGTA"
               ></circle>
               <circle
-                class="Benue"
+                className="Benue"
                 cx="508.1"
                 cy="536.6"
                 id="NGBE"
               ></circle>
               <circle
-                class="Cross River"
+                className="Cross River"
                 cx="478.9"
                 cy="675"
                 id="NGCR"
               ></circle>
               <circle
-                class="Sokoto"
+                className="Sokoto"
                 cx="252.5"
                 cy="91.8"
                 id="NGSO"
               ></circle>
               <circle
-                class="Zamfara"
+                className="Zamfara"
                 cx="322.9"
                 cy="171.6"
                 id="NGZA"
               ></circle>
               <circle
-                class="Yobe"
+                className="Yobe"
                 cx="716.6"
                 cy="148.9"
                 id="NGYO"
               ></circle>
               <circle
-                class="Katsina"
+                className="Katsina"
                 cx="415.7"
                 cy="131.8"
                 id="NGKT"
               ></circle>
               <circle
-                class="Jigawa"
+                className="Jigawa"
                 cx="574.6"
                 cy="158.3"
                 id="NGJI"
               ></circle>
               <circle
-                class="Ondo"
+                className="Ondo"
                 cx="208.5"
                 cy="582.6"
                 id="NGON"
               ></circle>
               <circle
-                class="Delta"
+                className="Delta"
                 cx="293.6"
                 cy="685.3"
                 id="NGDE"
               ></circle>
               <circle
-                class="Bayelsa"
+                className="Bayelsa"
                 cx="300.6"
                 cy="737.3"
                 id="NGBY"
               ></circle>
               <circle
-                class="Rivers"
+                className="Rivers"
                 cx="369"
                 cy="722.5"
                 id="NGRI"
               ></circle>
               <circle
-                class="Akwa Ibom"
+                className="Akwa Ibom"
                 cx="434.8"
                 cy="729.3"
                 id="NGAK"
               ></circle>
               <circle
-                class="Abia"
+                className="Abia"
                 cx="411.6"
                 cy="685.9"
                 id="NGAB"
               ></circle>
               <circle
-                class="Ebonyi"
+                className="Ebonyi"
                 cx="449.3"
                 cy="623.3"
                 id="NGEB"
               ></circle>
               <circle
-                class="Anambra"
+                className="Anambra"
                 cx="370.6"
                 cy="635"
                 id="NGAN"
               ></circle>
               <circle
-                class="Edo"
+                className="Edo"
                 cx="311.9"
                 cy="584.1"
                 id="NGED"
               ></circle>
               <circle
-                class="Bauchi"
+                className="Bauchi"
                 cx="578.7"
                 cy="306.7"
                 id="NGBA"
               ></circle>
               <circle
-                class="Plateau"
+                className="Plateau"
                 cx="571.8"
                 cy="414.7"
                 id="NGPL"
               ></circle>
               <circle
-                class="Nassarawa"
+                className="Nassarawa"
                 cx="455.2"
                 cy="452.4"
                 id="NGNA"
               ></circle>
               <circle
-                class="Gombe"
+                className="Gombe"
                 cx="694"
                 cy="306.9"
                 id="NGGO"
               ></circle>
               <circle
-                class="Enugu"
+                className="Enugu"
                 cx="402.9"
                 cy="604.5"
                 id="NGEN"
               ></circle>
               <circle
-                class="Kogi"
+                className="Kogi"
                 cx="327.8"
                 cy="499.9"
                 id="NGKO"
               ></circle>
               <circle
-                class="Osun"
+                className="Osun"
                 cx="187.5"
                 cy="528.6"
                 id="NGOS"
               ></circle>
               <circle
-                class="Imo"
+                className="Imo"
                 cx="377"
                 cy="680.9"
                 id="NGIM"
               ></circle>
               <circle
-                class="Ekiti"
+                className="Ekiti"
                 cx="245.6"
                 cy="514"
                 id="NGEK"
               ></circle>
               <circle
-                class="Kaduna"
+                className="Kaduna"
                 cx="433.4"
                 cy="299.4"
                 id="NGKD"
               ></circle>
               <circle
-                class="Kano"
+                className="Kano"
                 cx="489"
                 cy="201.6"
                 id="NGKN"
               ></circle>
               <circle
-                class="Federal Capital Territory"
+                className="Federal Capital Territory"
                 cx="383.6"
                 cy="431.5"
                 id="NGFC"

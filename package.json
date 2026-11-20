@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@elasticemail/elasticemail-client": "^4.0.23",
+    "@gruve/echo": "^0.0.16",
     "@react-three/drei": "^9.115.0",
     "@react-three/fiber": "^8.17.10",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
