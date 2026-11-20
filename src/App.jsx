@@ -1,26 +1,34 @@
-import logo from "./logo.svg";
 import "./App.scss";
 
-import { Route, Routes, useLocation } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout";
 import Home from "./pages/Home";
-import Test from "./pages/Test";
-import LocomotiveScroll from "locomotive-scroll";
-import { useEffect, useLayoutEffect, useRef } from "react";
+import NotFound from "./pages/NotFound";
+import About from "./components/About";
+import Tour from "./components/Tour";
+import Store from "./components/Store";
+import Music from "./components/Music";
+import Videos from "./components/Videos";
+import Shows from "./components/Shows";
+import ShowDetail from "./components/ShowDetail";
+import Gallery from "./components/Gallery";
 
 function App() {
-  const scrollRef = useRef(null);
-  const pathname = useLocation();
-
-
-
-
   return (
-    <div className="App" 
-    // data-scroll-container
-    >
+    <div className="App">
       <Routes>
-        <Route path="/" element={<Home scroll={scrollRef.current} />} />
-        <Route path="*" element={<Test />} />
+        <Route element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="tour" element={<Tour />} />
+          <Route path="store" element={<Store />} />
+          <Route path="music" element={<Music />} />
+          <Route path="videos" element={<Videos />} />
+          <Route path="shows" element={<Shows />} />
+          <Route path="shows/:slug" element={<ShowDetail />} />
+          <Route path="gallery" element={<Gallery />} />
+        </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

@@ -108,7 +108,7 @@ export default function About() {
 
 He is known for reviving the ancient Kalangu sound, a traditional Hausa rhythm and giving it modern life so that it resonates with today’s youth while honoring heritage. Through his work, FirstKlaz positions Northern musical identity not as a niche, but as a central thread in Nigeria’s evolving musical tapestry.
 
-He first broke through with his Gen-Z series <span className="bio_link"><a href={getSongLink("Gen-Z Fuji")} target="_blank">Gen-Z Fuji</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Fuji II")} target="_blank">Gen-Z Fuji II</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Arewa")} target="_blank">Gen-Z Arewa</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Fuji")} target="_blank">Gen-Z Fuji</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Faaji")} target="_blank">Gen-Z Faaji</a></span> (featuring Joeboy) before delivering <span className="bio_link"><a href={getSongLink("Gen-Z AreWazobia")} target="_blank">Gen-Z Arewazobia</a></span> (featuring Zlatan & Jeriq), a powerful anthem that unites the three major Nigerian tribes in musical harmony. In 2024, he released <span className="bio_link"><a href={getSongLink("Alhaji")} target="_blank">Alhaji</a></span>, a street-anthem that showcased his creative range and deepened his connection with the streets
+He first broke through with his Gen-Z series <span className="bio_link"><a href={getSongLink("Gen-Z Fuji")} target="_blank" rel="noreferrer">Gen-Z Fuji</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Fuji II")} target="_blank" rel="noreferrer">Gen-Z Fuji II</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Arewa")} target="_blank" rel="noreferrer">Gen-Z Arewa</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Fuji")} target="_blank" rel="noreferrer">Gen-Z Fuji</a></span>, <span className="bio_link"><a href={getSongLink("Gen-Z Faaji")} target="_blank" rel="noreferrer">Gen-Z Faaji</a></span> (featuring Joeboy) before delivering <span className="bio_link"><a href={getSongLink("Gen-Z AreWazobia")} target="_blank" rel="noreferrer">Gen-Z Arewazobia</a></span> (featuring Zlatan & Jeriq), a powerful anthem that unites the three major Nigerian tribes in musical harmony. In 2024, he released <span className="bio_link"><a href={getSongLink("Alhaji")} target="_blank" rel="noreferrer">Alhaji</a></span>, a street-anthem that showcased his creative range and deepened his connection with the streets
 
 Firstklaz has been featured in top
         publications such as 
@@ -116,7 +116,7 @@ Firstklaz has been featured in top
                       {" "}
                       <a
                         href="https://thenativemag.com/tag/firstklaz/"
-                        target="blank"
+                        target="_blank" rel="noreferrer"
                       >
         TheNativeMag
         </a>
@@ -126,7 +126,7 @@ Firstklaz has been featured in top
                       {" "}
                       <a
                         href="https://grungecake.com/tag/firstklaz#google_vignette"
-                        target="blank"
+                        target="_blank" rel="noreferrer"
                       >
          GrungeCake
          </a>
@@ -135,7 +135,7 @@ Firstklaz has been featured in top
                       {" "}
                       <a
                         href="https://www.wordplaymagazine.com/blog-1/2023/6/21/firstklaz-x-hitsound-i-like-girls-single"
-                        target="blank"
+                        target="_blank" rel="noreferrer"
                       >
                         WordPlay
                       </a>
@@ -144,7 +144,7 @@ Firstklaz has been featured in top
                       {" "}
                       <a
                         href="https://imullar.com/2023/06/19/on-rotation-songs-you-need-in-your-life-this-week-89/"
-                        target="blank"
+                        target="_blank" rel="noreferrer"
                       >
                         IMullar
                       </a>
@@ -152,16 +152,16 @@ Firstklaz has been featured in top
                       {" "}
                       <a
                         href="https://ameyawdebrah.com/hitmakers-firstklaz-and-hitsound-team-up-for-summer-anthem-i-like-girls/"
-                        target="blank"
+                        target="_blank" rel="noreferrer"
                       >
                         AmeyawDebrah.
                       </a>
                     </span>
          </span>
 
-In 2025, FirstKlaz released <span className="bio_link"><a href={getSongLink("Soyaiya")} target="_blank">Soyaiya</a></span>, a soulful and melodic single that further cemented his reputation as an artist who can balance emotional depth with musical accessibility.
+In 2025, FirstKlaz released <span className="bio_link"><a href={getSongLink("Soyaiya")} target="_blank" rel="noreferrer">Soyaiya</a></span>, a soulful and melodic single that further cemented his reputation as an artist who can balance emotional depth with musical accessibility.
 
-On October 3, 2025, FirstKlaz released his EP <span className="bio_link"><a href={getSongLink("Dejavu")} target="_blank">Déjavu</a></span> under Iliya Entertainment Music, a seven-track project that fuses his artistic roots with refined production and storytelling. The EP blends kalangu and goje textures with hip-hop inflections and emotive songwriting, ranging from the assertive energy of <span className="bio_link"><a href={getSongLink("Alhaji")} target="_blank">Alhaji</a></span>, to the romantic heart of <span className="bio_link"><a href={getSongLink("Soyaiya")} target="_blank">Soyaiya</a></span>, and the unifying anthem <span className="bio_link"><a href={getSongLink("Gen-Z AreWazobia")} target="_blank">Gen-Z Arewazobia</a></span>. Déjavu invites listeners to journey with him into memory, identity, and reawakening.
+On October 3, 2025, FirstKlaz released his EP <span className="bio_link"><a href={getSongLink("Dejavu")} target="_blank" rel="noreferrer">Déjavu</a></span> under Iliya Entertainment Music, a seven-track project that fuses his artistic roots with refined production and storytelling. The EP blends kalangu and goje textures with hip-hop inflections and emotive songwriting, ranging from the assertive energy of <span className="bio_link"><a href={getSongLink("Alhaji")} target="_blank" rel="noreferrer">Alhaji</a></span>, to the romantic heart of <span className="bio_link"><a href={getSongLink("Soyaiya")} target="_blank" rel="noreferrer">Soyaiya</a></span>, and the unifying anthem <span className="bio_link"><a href={getSongLink("Gen-Z AreWazobia")} target="_blank" rel="noreferrer">Gen-Z Arewazobia</a></span>. Déjavu invites listeners to journey with him into memory, identity, and reawakening.
 
 Déjavu is an anthem for the voiceless for dreamers, hustlers, and everyday people pushing against the odds.
 
